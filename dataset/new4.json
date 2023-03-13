@@ -1,6 +1,10 @@
 {
-	"name": "DATA2",
+	"name": "new4",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "target3",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

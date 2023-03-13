@@ -1,12 +1,17 @@
 {
-	"name": "DATA2",
+	"name": "nnew1",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "source3",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"container": "elena"
+				"type": "AzureBlobFSLocation",
+				"fileName": "country1.csv",
+				"fileSystem": "caroline"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
